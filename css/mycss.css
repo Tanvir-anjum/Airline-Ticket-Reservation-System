@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 20px;
+  text-align: left;
+  background: white;
+}
+
+.header h1 {
+  font-size: 30px;
+}
+
+.logo {
+  width: auto;
+  height: 114px;
+}
+
+/*menu ------------------------------------*/
+.navbar {
+  overflow: hidden;
+  background-color: #357ebd;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #497FAF;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*menu ------------------------------------*/
+
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: white;
+  margin-top: 20px;
+  color: #0072bc;
+}
+.error_message{
+  color: red;
+  
+}
+
+/*Table design---------------------*/
+.list_view {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.list_view td, #list_view th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.list_view th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #497FAF;
+  color: white;
+}
+/*Table design---------------------*/
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-block {
+  margin: auto;
+  display: block;
+}
+
+.border_none td {
+  border: none;
+}
+
+.profile_pic{
+  width: 150px;
+}
